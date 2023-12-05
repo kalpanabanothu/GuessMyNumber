@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  font-size: 20px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: bisque;
+}
+
+.head {
+  font-size: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 15px;
+  text-align: center;
+  position: relative;
+  background-position-x: 50px;
+  border: 5px solid #658a9b;
+  background-color: rgb(178, 238, 218);
+}
+.btw {
+  background-color: rgb(235, 228, 241);
+  color: rgb(33, 20, 223);
+  padding: 10px;
+}
+
+.between {
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  font-family: monospace;
+  margin-top: 30px;
+}
+
+.str {
+  font-size: 30px;
+  padding: 20px;
+  text-align: center;
+  font-family: monospace;
+  margin-top: 10px;
+}
+
+.guess {
+  background: none;
+  border: 4px solid #faf6f6;
+  font-family: inherit;
+  color: inherit;
+  font-size: 2rem;
+  padding: 1rem;
+  width: 20rem;
+  text-align: center;
+  margin-left: 35%;
+  margin-top: 2%;
+}
+
+.check {
+  font-size: 1rem;
+  font-family: inherit;
+  width: 20rem;
+  text-align: center;
+  margin-left: 35%;
+  padding: 10px;
+  position: absolute;
+}
+
+.restart {
+  font-size: 1rem;
+  font-family: inherit;
+  width: 7rem;
+  text-align: center;
+  margin-left: 39%;
+  margin-top: 30px;
+}
+
+.stop {
+  font-size: 1rem;
+  font-family: inherit;
+  width: 7rem;
+  text-align: center;
+}
+
+.label-score {
+  font-size: 2rem;
+  font-family: inherit;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.label-highscore {
+  font-size: 2rem;
+  font-family: inherit;
+  text-align: center;
+  margin-top: 20px;
+}
